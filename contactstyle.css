@@ -1,0 +1,61 @@
+body{
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	margin:0 auto;
+	width: 960px;
+}
+/*HEADE*/
+.header{
+	padding: 50px 0;
+	background-color: red;
+}
+.header h1,{
+	color:black;
+	text-align: center;
+}
+/*NAVIGATION*/
+.page-navigation{
+	background-color: #222;
+	border-color: #101010;
+	min-height: 64px;
+}
+.page-navigation li{
+float: left;
+width: 100px;
+}
+.page-navigation a{
+display: block;
+color: #9d9d9d;
+line-height: 4em;
+font-weight: bold;
+text-align: center;
+}
+.page-navigation a:hover{
+	color: red;
+	background-color: black;
+}
+/*LOGIN FORM*/
+
+
+/*MAIN PART(частина)*/
+
+/*FOOTER*/
+.footer{
+	background-color: red;
+	color: black;
+	padding: 20px 0;
+	margin-top: 50px; 
+	text-transform: uppercase;
+}
