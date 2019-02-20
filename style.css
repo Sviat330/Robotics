@@ -12,17 +12,19 @@ body {
 }
 
 
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+@media (min-width: 768px){
 .navbar-wrapper {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   z-index: 20;
-}
+}}
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
@@ -36,20 +38,22 @@ body {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
-.col-lg-4{
-  height:500px;
+@media (min-width: 768px){
+.col-lg-4{width: 30%;
+  float:left;
+  height:375px;
   border:2px solid black;
-  padding:10px;
-}
+  padding:5px;
+  overflow:auto;
+}}
 
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
-
-/* Carousel base class */
+@media (min-width: 768px){
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -59,7 +63,6 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -68,7 +71,7 @@ body {
   min-width: 100%;
   height: 500px;
 }
-
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -106,7 +109,6 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
-  /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
   }
@@ -137,7 +139,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .featurette-heading {
     margin-top: 120px;
   }
@@ -147,7 +149,11 @@ body {
   width: 960px;
   height: 100px;
 }
+.featurette-imageimg-responsive{
+  float: left;
+}
 .footer{
   color: black;
   text-transform: uppercase;
+}
 }

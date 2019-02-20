@@ -27,10 +27,11 @@ a{
 	font-size: 13px;
 	line-height: 1.3em;
 }
+@media (min-width: 760px) {
 .container{
 	margin:0 auto;
-	width: 960px;
-}
+	width: 760px;
+}}
 /*HEADE*/
 .header{
 	padding: 50px 0;

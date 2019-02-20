@@ -1,4 +1,6 @@
 /*GENERAL STYLE*/
+
+
 body{
 	font-family: Arial, San-Serif;
 	font-size: 100%;
@@ -21,17 +23,19 @@ a{
   left: 0;
   z-index: 20;
 }
+
 .medicine{
 	height: 150px;
 	overflow:auto;
 	font-size: 13px;
 	line-height: 1.3em;
 }
+@media (min-width: 760px) {
 .container{
 	margin:0 auto;
-	width: 960px;
-}
-/*HEADE*/
+	width: 760px;
+}}
+
 .header{
 	padding: 50px 0;
 	background-color: red;
@@ -61,13 +65,7 @@ text-align: center;
 	color: red;
 	background-color: black;
 }
-/*LOGIN FORM*/
-.login{
-	padding: 15px 0;
-	float: right;
-}
 
-/*MAIN PART(частина)*/
 .collections{
 	height: 450px;
 	overflow: auto;
